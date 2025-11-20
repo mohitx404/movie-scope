@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieScope</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="container">
+        <header>
+            <h1>🎬 Movie/Series Search</h1>
+            <p class="tagline">Discover your favorite movies</p>
+        </header>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    placeholder="Search for movies..."
+                    autocomplete="off"
+                >
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">Searching for movies...</div>
+        <div class="error-message" id="errorMessage"></div>
+        <div class="no-results" id="noResults">No movies found. Try another search!</div>
+
+        <div class="movies-grid" id="moviesGrid">
+            <!-- Movies will be displayed here dynamically -->
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
