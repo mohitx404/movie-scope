@@ -24,7 +24,7 @@ async function searchMovies() {
     noResults.style.display = 'none';
 
     try {
-        const url = `http://www.omdbapi.com/?apikey=${API_KEY}&s=${searchItem}`;
+        const url = `https://www.omdbapi.com/?apikey=${API_KEY}&s=${searchItem}`;
         const response = await fetch(url);
         const data = await response.json();
          loading.style.display = 'none';
