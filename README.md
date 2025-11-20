@@ -2,6 +2,8 @@
 
 A movie search app built with HTML, CSS, and JavaScript using the OMDb API.
 
+## Demo : https://movie-scope-mu.vercel.app/
+
 ## Features
 
 - Search for movies by title
